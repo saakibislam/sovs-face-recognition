@@ -117,7 +117,7 @@ function finalExecution(preAns) {
         console.log('The photo is of: ' + ans);
         clearInterval(interval);
         //send user to vote page
-        window.location.replace('http://localhost:3000/vote')
+        window.location.replace('https://online-voting-system.web.app/vote')
     }
     //console.log(shortenedAns);
     //clearInterval(interval);
