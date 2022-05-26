@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Recognition</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div style="padding:2em; background-color:#212529; margin:0">
+    </div>
+
+    <div class="main-div">
+        <h1 id="head-title">Please stay still for face verification</h1>
+        <video id="videoInput" width="640" height="480" autoplay></video>
+        <br />
+        <button class="verificationButton" id="capture" disabled>Please Wait</button>
+    </div>
+
+    <script src="./js/face-api.min.js"></script>
+    <script defer async src="./js/script.js"></script>
+</body>
+
+</html>
