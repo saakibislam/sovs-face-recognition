@@ -1,9 +1,22 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
 body {
     padding: 0;
     margin: 0;
 }
 
-.heading-success {
+/*
+ .heading-success {
     color: #198754;
 }
 
@@ -16,17 +29,20 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+} 
+*/
 
 canvas {
     position: absolute;
 }
 
 video {
+    width: 100%;
     border-radius: 5px;
     box-shadow: 0px 0px 15px black;
 }
 
+/* 
 .verificationButton {
     display: inline-block;
     outline: 0;
@@ -46,4 +62,5 @@ video {
 
 .verificationButton:hover {
     background: #006e52;
-}
+} 
+*/
