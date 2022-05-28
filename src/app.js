@@ -1,6 +1,5 @@
 const path = require('path')
 const express = require('express')
-const messagebird = require('messagebird')('Fox9jJABmPIJ0FrIKSmMJtNZR')
 // const fs = require('fs').promises
 
 const app = express()
